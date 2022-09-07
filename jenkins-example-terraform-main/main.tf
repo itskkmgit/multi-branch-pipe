@@ -1,3 +1,3 @@
 output "jenkins_terraform" {
-  value = "running Terraform from Jenkins: Mysecondautotrigger:KKM:ITS"
+  value = "running Terraform from Jenkins: Testing: Masterautotrigger:KKM:ITS"
 }
