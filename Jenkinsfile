@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage('Git checkout'){
             steps{
-                checkout([$class: 'GitSCM', branches: [[name: '*/master']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/itskkmgit/multi-branch-pipe.git/']]])
+                checkout([$class: 'GitSCM', branches: [[name: '*/dev']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/itskkmgit/multi-branch-pipe.git/']]])
             }
         }
         stage("Init") {
